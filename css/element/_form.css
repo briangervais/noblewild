@@ -1,0 +1,34 @@
+form {
+  /* font-size: 1.5rem; */
+}
+
+.form-item {
+  margin-bottom: 1.5rem;
+}
+
+input[type="text"],
+textarea {
+  background: rgba(0,0,0,.08);
+  border: 0;
+  padding: 1rem;
+  width: 100%;
+}
+
+input[type="checkbox"] {
+  margin: 0 .75rem 0 0;
+}
+
+input[type="button"] {
+  display: block;
+}
+
+textarea {
+  min-height: 200px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: .5rem;
+  text-transform: uppercase;
+}

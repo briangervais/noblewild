@@ -1,0 +1,8 @@
+.ad {
+  text-align: center;
+}
+
+.ad__inner {
+  margin: 0 auto;
+  max-width: 800px;
+}

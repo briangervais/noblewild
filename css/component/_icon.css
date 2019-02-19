@@ -1,0 +1,23 @@
+.icon--social {
+  display: inline-block;
+  height: 50px;
+  overflow: hidden;
+  text-indent: -9999px;
+  width: 50px;
+}
+
+.icon--facebook {
+  background: url('../../images/icons/facebook.svg') no-repeat center 100%;
+}
+
+.icon--instagram {
+  background: url('../../images/icons/instagram.svg') no-repeat center 100%;
+}
+
+.icon--facebook-dark {
+  background: url('../../images/icons/facebook-dark.svg') no-repeat center 100%;
+}
+
+.icon--instagram-dark {
+  background: url('../../images/icons/instagram-dark.svg') no-repeat center 100%;
+}

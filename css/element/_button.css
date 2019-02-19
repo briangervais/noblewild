@@ -1,0 +1,28 @@
+.button {
+  border: 0;
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+.button--primary {
+  background: #222;
+  color: white;
+}
+
+.button--secondary {
+  background: #eee;
+  color: #222;
+}
+
+.button--large {
+  padding: 2rem;
+}
+
+.button--medium {
+  padding: 1.25rem;
+}
+
+.button--small {
+  padding: .25rem;
+}

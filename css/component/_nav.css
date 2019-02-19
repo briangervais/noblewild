@@ -1,0 +1,162 @@
+.nav--primary {
+  display: flex;
+  flex-flow: column;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.nav--primary a {
+  color: white;
+  display: inline-block;
+  font-size: 3rem;
+  font-weight: 600;
+  letter-spacing: 2.5px;
+  margin-bottom: 1rem;
+  padding: 0 .5rem .5rem;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.nav--primary a::after {
+  background: transparent;
+  bottom: 0;
+  content: "";
+  height: 30px;
+  left: 0;
+  position: absolute;
+  transition: all .2s;
+  width: 100%;
+}
+
+.nav--primary a:hover {
+  color: #e0be00; /* mustard yellow */
+  display: inline-block;
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+.nav--primary a:hover::after {
+  /* background: rgba(255,255,255,.25); */
+}
+
+.nav--social {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 760px) {
+  .nav--social {
+    flex-flow: column;
+    justify-content: space-around;
+  }
+}
+
+.nav--social a {
+  margin-bottom: 1rem;
+}
+
+.nav--social-inline {
+  flex-flow: row;
+  justify-content: flex-start;
+}
+
+.nav--container {
+  position: relative;
+  z-index: 1;
+}
+
+.nav__menus {
+  background: rgba(0,0,0, .95);
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  left: 0;
+  opacity: 0;
+  padding: 3rem;
+  position: fixed;
+  right: 0;
+  top: 0;
+  transform: scale(0);
+  transform-origin: top right;
+  transition: all 0.2s;
+  z-index: -1;
+}
+
+@media screen and (min-width: 760px) {
+  .nav__menus {
+    flex-direction: row;
+    justify-content: space-between;
+    left: 50%;
+  }
+}
+
+input[type=checkbox]:checked ~ .nav__menus {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.nav__trigger {
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+}
+
+.nav__label {
+  position: relative;
+  z-index: 1;
+}
+
+.icon-bar {
+  display: block;
+  width: 30px;
+  height: 3px;
+  background-color: #000000;
+  margin: 4px;
+  transition: all 0.2s;
+}
+
+.top-bar {
+  transform: rotate(0);
+}
+
+.middle-bar {
+  opacity: 1;
+}
+
+input[type=checkbox]:checked + label .top-bar {
+  transform: rotate(45deg);
+  transform-origin: 25% 10%;
+}
+
+input[type=checkbox]:checked + label .middle-bar {
+  opacity: 0;
+}
+
+input[type=checkbox]:checked + label .bottom-bar {
+  transform: rotate(-45deg);
+  transform-origin: 25% 90%;
+}
+
+input[type=checkbox]:checked + label .icon-bar {
+  background-color: #FFFFFF;
+  width: 45px;
+}
+
+.nav--secondary a {
+  display: inline-block;
+  font-weight: bold;
+  margin-right: 2rem;
+  text-transform: uppercase;
+}
+
+.nav--secondary-social {
+  display: inline-block;
+  margin-left: 2rem;
+}
+
+.nav--secondary-social a {
+  margin-left: 2rem;
+}

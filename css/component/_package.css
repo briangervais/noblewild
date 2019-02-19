@@ -1,0 +1,14 @@
+.package {
+  background: rgba(255,255,255,.95);
+  margin-bottom: 2rem;
+}
+
+.package__content {
+}
+
+.package:nth-of-type(odd) {
+}
+
+.package:nth-of-type(even) {
+  /* background: #eee; */
+}

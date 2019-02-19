@@ -1,0 +1,59 @@
+.title {
+  /* margin-top: -10rem; */
+  position: relative;
+}
+
+.title img {
+  display: block;
+  left: 50%;
+  margin-left: -640px;
+  position: fixed;
+  top: -225px;
+  width: 1280px;
+}
+
+.title div {
+  color: white;
+  padding: 3rem 0;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+}
+
+.title h2 {
+  font-size: 4rem;
+}
+
+.title-grid {
+
+}
+
+.title-grid__content {
+  display: grid;
+  grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+  grid-template-rows: auto;
+}
+
+.title-grid__content article {
+  overflow: hidden;
+  position: relative;
+}
+
+.title-grid__content article:hover h4 {
+  bottom: 1rem;
+  opacity: 1;
+}
+
+.title-grid__content img {
+  display: block;
+}
+
+.title-grid__content h4 {
+  bottom: 0;
+  color: white;
+  left: 1rem;
+  opacity: 0;
+  position: absolute;
+  transition: all 0.2s ease-in-out;
+  width: calc(100% - 2rem);
+}

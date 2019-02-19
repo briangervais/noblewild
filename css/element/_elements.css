@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #f9f9f9;
+  color: black;
+  /* font-family: 'Domine', serif; */
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 68px; /* Size of header */
+}
+
+h1,
+h2,
+h3 {
+}
+
+h2 {
+}
+
+h3 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+h1:first-of-type,
+h2:first-of-type,
+h3:first-of-type,
+h4:first-of-type,
+h5:first-of-type,
+h6:first-of-type {
+  margin-top: 0;
+}
+
+a {
+  color: #e0be00; /* mustard yellow */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #e0be00; /* mustard yellow */
+}
+
+ul,
+p {
+  font-size: 1.25rem;
+}
+
+ul {
+  /* padding-left: 0; */
+}
+
+label {
+  cursor: pointer;
+}
+
+img {
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+ul {
+  columns: 2;
+}

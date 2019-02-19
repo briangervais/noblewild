@@ -1,0 +1,91 @@
+header {
+  align-items: center;
+  background: rgba(255, 255, 255, 0.9);
+  display: flex;
+  justify-content: space-between;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 2;
+}
+
+main {
+  position: relative;
+  z-index: 1;
+}
+
+section {
+  position: relative;
+}
+
+footer {
+  align-items: center;
+  background: rgba(0,0,0,.8);
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+}
+
+.section--padded-xlarge {
+  padding: 3rem;
+}
+
+.section--padded-large {
+  padding: 2rem;
+}
+
+.section--padded-small {
+  padding: 1rem 2rem;
+}
+
+.l--gutters-lg {
+  padding: 3rem;
+}
+
+.l--gutters-sm {
+  padding: 0 2rem;
+}
+
+.l--padded-vert-lg {
+  padding: 8rem 0;
+}
+
+.l--padded-bottom-sm {
+  padding-bottom: 6rem;
+}
+
+.l--padded-bottom-lg {
+  padding-bottom: 8rem;
+}
+
+.l--padded-vert-sm {
+  padding: 6rem 0;
+}
+
+.l--constrained {
+  margin: 0 auto;
+  max-width: 80%;
+}
+
+.l--narrow {
+  margin: 0 auto;
+  max-width: 480px;
+  width: 100%;
+}
+
+.l--full {
+  background: white;
+}
+
+.l--two-up {
+  display: flex;
+  justify-content: space-between;
+}
+
+.l--two-up div {
+  /* flex-grow: ; */
+  flex-basis: calc(50% - 2rem);
+}
