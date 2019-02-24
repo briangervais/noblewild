@@ -8,13 +8,13 @@
   left: 50%;
   margin-left: -640px;
   position: fixed;
-  top: -225px;
+  top: 0;
   width: 1280px;
 }
 
 .title div {
   color: white;
-  padding: 3rem 0;
+  padding: 21rem 0 3rem;
   position: relative;
   width: 100%;
   z-index: 1;
@@ -22,16 +22,44 @@
 
 .title h2 {
   font-size: 4rem;
+  position: relative;
 }
 
 .title-grid {
+  align-items: flex-end;
+  display: flex;
+  height: 320px;
+}
 
+.title-grid__title {
+  bottom: 3rem;
+  display: inline-block;
+  left: 10%;
+  position: relative;
+  z-index: 1;
+}
+
+.title-grid__title h2 {
+  font-size: 4rem;
+  margin: 0;
 }
 
 .title-grid__content {
   display: grid;
   grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
   grid-template-rows: auto;
+  position: fixed;
+  top: 68px;
+}
+
+.title-grid--one {
+  height: 480px;
+}
+
+.title-grid__content-one {
+  display: grid;
+  position: fixed;
+  top: 68px;
 }
 
 .title-grid__content article {

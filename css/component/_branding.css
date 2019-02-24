@@ -5,3 +5,7 @@
 .logo a {
   color: #222222;
 }
+
+.logo a:hover {
+  color: hotpink;
+}

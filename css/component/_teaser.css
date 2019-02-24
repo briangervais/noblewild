@@ -1,0 +1,20 @@
+.teaser {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.teaser__image {
+}
+
+@media screen and (min-width: 760px) {
+  .teaser {
+    flex-direction: row;
+  }
+
+  .teaser__image {
+    margin-right: 2rem;
+    min-width: 400px;
+  }
+}

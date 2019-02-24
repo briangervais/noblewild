@@ -1,19 +1,40 @@
 .nav--primary {
   display: flex;
   flex-flow: column;
-  font-family: 'Montserrat', sans-serif;
+}
+
+@media screen and (min-width: 760px) {
+  .nav--primary {
+    display: flex;
+    flex-flow: row;
+  }
 }
 
 .nav--primary a {
-  color: white;
+  color: black;
   display: inline-block;
-  font-size: 3rem;
   font-weight: 600;
   letter-spacing: 2.5px;
-  margin-bottom: 1rem;
-  padding: 0 .5rem .5rem;
-  position: relative;
-  text-transform: uppercase;
+}
+
+@media screen and (max-width: 759px) {
+  .nav--primary a {
+    color: white;
+    display: inline-block;
+    font-size: 3rem;
+    font-weight: 600;
+    letter-spacing: 2.5px;
+    margin-bottom: 1rem;
+    padding: 0 .5rem .5rem;
+    position: relative;
+    text-transform: uppercase;
+  }
+}
+
+@media screen and (min-width: 760px) {
+  .nav--primary a {
+    margin-left: 1.5rem;
+  }
 }
 
 .nav--primary a::after {
@@ -28,12 +49,6 @@
 }
 
 .nav--primary a:hover {
-  color: #e0be00; /* mustard yellow */
-  display: inline-block;
-  font-size: 3rem;
-  font-weight: 600;
-  margin-bottom: 1rem;
-  text-transform: uppercase;
 }
 
 .nav--primary a:hover::after {
@@ -47,7 +62,8 @@
 }
 
 @media screen and (min-width: 760px) {
-  .nav--social {
+  header .nav--social {
+    display: none;
     flex-flow: column;
     justify-content: space-around;
   }
@@ -67,30 +83,32 @@
   z-index: 1;
 }
 
-.nav__menus {
-  background: rgba(0,0,0, .95);
-  bottom: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  left: 0;
-  opacity: 0;
-  padding: 3rem;
-  position: fixed;
-  right: 0;
-  top: 0;
-  transform: scale(0);
-  transform-origin: top right;
-  transition: all 0.2s;
-  z-index: -1;
+@media screen and (max-width: 759px) {
+  .nav__menus {
+    background: rgba(0,0,0, .95);
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    left: 0;
+    opacity: 0;
+    padding: 3rem;
+    position: fixed;
+    right: 0;
+    top: 0;
+    transform: scale(0);
+    transform-origin: top right;
+    transition: all 0.2s;
+    z-index: -1;
+  }
 }
 
 @media screen and (min-width: 760px) {
   .nav__menus {
     flex-direction: row;
     justify-content: space-between;
-    left: 50%;
+    /* left: 50%; */
   }
 }
 
@@ -107,6 +125,12 @@ input[type=checkbox]:checked ~ .nav__menus {
 .nav__label {
   position: relative;
   z-index: 1;
+}
+
+@media screen and (min-width: 760px) {
+  .nav__label {
+    display: none;
+  }
 }
 
 .icon-bar {

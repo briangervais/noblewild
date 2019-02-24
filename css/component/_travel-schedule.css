@@ -1,0 +1,21 @@
+.travel-schedule {
+  text-align: center;
+}
+
+.travel-schedule__title {
+}
+
+.travel-schedule__list {
+  columns: 1;
+  list-style: none;
+}
+
+.travel-schedule__list span {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.3rem;
+}
+
+.travel-schedule p {
+  font-size: .8rem;
+  font-style: italic;
+}

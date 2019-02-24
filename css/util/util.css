@@ -3,6 +3,11 @@
   secondary: teal;
 */
 
+.background--color-white-trans {
+  background: rgba(255,255,255,.7);
+  border-top: 1px solid white;
+}
+
 .background--color-white {
   background: rgba(255,255,255,.8);
 }
@@ -20,8 +25,8 @@
 
 .list--prominent {
   columns: 1;
-  font-size: 1.5rem;
-  list-style: none;
+  /* font-size: 1.5rem; */
+  /* list-style: none; */
   margin: 0;
 }
 
@@ -33,4 +38,12 @@
   color: #333;
   font-weight: bold;
   text-transform: uppercase;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
 }

@@ -1,4 +1,4 @@
-header {
+.header {
   align-items: center;
   background: rgba(255, 255, 255, 0.9);
   display: flex;
@@ -19,7 +19,7 @@ section {
   position: relative;
 }
 
-footer {
+.site-footer {
   align-items: center;
   background: rgba(0,0,0,.8);
   display: flex;
@@ -53,16 +53,24 @@ footer {
   padding: 8rem 0;
 }
 
+.l--padded-vert-sm {
+  padding: 6rem 0;
+}
+
+.l--padded-vert-xsm {
+  padding: 3rem 0;
+}
+
+.l--padded-vert-xxsm {
+  padding: 3rem 0;
+}
+
 .l--padded-bottom-sm {
   padding-bottom: 6rem;
 }
 
 .l--padded-bottom-lg {
   padding-bottom: 8rem;
-}
-
-.l--padded-vert-sm {
-  padding: 6rem 0;
 }
 
 .l--constrained {
@@ -81,11 +89,12 @@ footer {
 }
 
 .l--two-up {
+  align-items: center;
   display: flex;
   justify-content: space-between;
 }
 
 .l--two-up div {
   /* flex-grow: ; */
-  flex-basis: calc(50% - 2rem);
+  flex-basis: calc(50% - 2px);
 }

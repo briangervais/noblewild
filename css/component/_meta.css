@@ -1,0 +1,11 @@
+.meta {
+  border-bottom: 1px solid #eee;
+  border-top: 1px solid #eee;
+  margin: 1rem 0;
+  padding: 1rem 0;
+}
+
+.meta p {
+  font-size: 14px;
+  margin: 0;
+}

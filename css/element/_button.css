@@ -1,18 +1,52 @@
 .button {
-  border: 0;
+  border: 2px solid black;
   display: inline-block;
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
+  position: relative;
+  transition: all .4s ease-in-out;
+  z-index: 0;
+}
+
+.button:hover {}
+
+.button::before,
+.button::after {
+  background: transparent;
+  content: "";
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  right: 50%;
+  top: 0;
+  transition: all .3s ease-in-out;
+  z-index: -1;
+}
+
+.button:hover::before,
+.button:hover::after {
+  background: rgba(0,0,0,.05);
+}
+
+.button:hover::before {
+  left: 0;
+}
+
+.button:hover::after {
+  right: 0;
 }
 
 .button--primary {
   background: #222;
-  color: white;
+}
+
+.button--primary {
+}
+
+.button--primary:hover {
 }
 
 .button--secondary {
-  background: #eee;
-  color: #222;
 }
 
 .button--large {
