@@ -7,9 +7,10 @@ form {
 }
 
 input[type="text"],
+input[type="email"],
 textarea {
-  background: rgba(0,0,0,.08);
-  border: 0;
+  background: transparent;
+  border: 2px solid #DDDDDD;
   padding: 1rem;
   width: 100%;
 }
