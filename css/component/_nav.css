@@ -49,6 +49,7 @@
 }
 
 .nav--primary a:hover {
+  color: hotpink;
 }
 
 .nav--primary a:hover::after {
