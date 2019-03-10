@@ -2,6 +2,7 @@
   display: flex;
   flex-flow: column;
   margin-bottom: 2rem;
+  width: 100%;
 }
 
 @media screen and (min-width: 760px) {
@@ -9,6 +10,7 @@
     display: flex;
     flex-flow: row;
     margin-bottom: 0;
+    width: auto;
   }
 }
 
@@ -99,7 +101,7 @@
     align-items: center;
     left: 0;
     opacity: 0;
-    padding: 8rem 3rem 3rem;
+    padding: 6rem 3rem 3rem;
     position: fixed;
     right: 0;
     top: 0;
