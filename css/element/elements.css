@@ -25,18 +25,16 @@ h1 {
 
 h2 {
   font-size: 1.8rem;
-  margin-bottom: 1rem;
-  text-transform: uppercase;
+  margin-bottom: 2rem;
 }
 
 h3 {
   font-size: 1.5rem;
-  margin-bottom: 1.5rem;
-  text-transform: uppercase;
+  margin-bottom: 2rem;
 }
 
 h4 {
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
 }
 
 h5 {

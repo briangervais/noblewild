@@ -91,10 +91,50 @@ section {
 .l--two-up {
   align-items: center;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
 }
 
-.l--two-up div {
-  /* flex-grow: ; */
-  flex-basis: calc(50% - 2px);
+@media screen and (min-width: 760px) {
+  .l--two-up {
+    flex-direction: row;
+  }
+}
+
+.l--two-up > div {
+  margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 760px) {
+  .l--two-up > div {
+    flex-basis: calc(50% - .5rem);
+    margin-bottom: 0;
+  }
+}
+
+/* TWO UP BORDERED */
+.l--two-up-bordered {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 760px) {
+  .l--two-up-bordered {
+    flex-direction: row;
+  }
+}
+
+.l--two-up-bordered > div {
+  border: 1px solid #eee;
+  background: #fcfcfc;
+  margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 760px) {
+  .l--two-up-bordered > div {
+    flex-basis: calc(50% - .5rem);
+    margin-bottom: 0;
+  }
 }

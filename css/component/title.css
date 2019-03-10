@@ -5,24 +5,45 @@
 
 .title img {
   display: block;
-  left: 50%;
-  margin-left: -640px;
-  position: fixed;
-  top: 0;
-  width: 1280px;
+}
+
+@media screen and (min-width: 760px) {
+  .title img {
+    left: 50%;
+    margin-left: -640px;
+    max-width: none;
+    position: fixed;
+    top: 0;
+    width: 1280px;
+  }
 }
 
 .title div {
   color: white;
-  padding: 21rem 0 3rem;
+  margin-top: -3.9rem;
   position: relative;
   width: 100%;
   z-index: 1;
 }
 
+@media screen and (min-width: 760px) {
+  .title div {
+    margin-top: 0;
+    padding: 21rem 0 3rem;
+  }
+}
+
 .title h2 {
-  font-size: 4rem;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
   position: relative;
+}
+
+@media screen and (min-width: 760px) {
+  .title h2 {
+    font-size: 4rem;
+    margin-bottom: 0;
+  }
 }
 
 .title-grid {
@@ -48,8 +69,11 @@
   display: grid;
   grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
   grid-template-rows: auto;
+  left: 50%;
+  margin-left: -640px;
   position: fixed;
   top: 68px;
+  width: 1280px;
 }
 
 .title-grid--one {

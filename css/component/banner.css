@@ -1,17 +1,27 @@
 .banner {
   align-items: flex-end;
   display: flex;
-  height: calc(100vh - 165px);
   overflow: hidden;
   position: relative;
 }
 
+@media screen and (min-width: 768px) {
+  .banner {
+    height: calc(100vh - 165px);
+  }
+}
+
 .banner--image {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .banner--image {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+  }
 }
 
 .banner--content {

@@ -12,6 +12,13 @@
 }
 
 .package__content {
+  padding: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .package__content {
+    padding: 3rem;
+  }
 }
 
 .package:nth-of-type(odd) {

@@ -8,6 +8,8 @@
 .travel-schedule__list {
   columns: 1;
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .travel-schedule__list span {
@@ -18,4 +20,5 @@
 .travel-schedule p {
   font-size: .8rem;
   font-style: italic;
+  margin: 1rem 0 0;
 }

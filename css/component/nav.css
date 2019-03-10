@@ -1,12 +1,14 @@
 .nav--primary {
   display: flex;
   flex-flow: column;
+  margin-bottom: 2rem;
 }
 
 @media screen and (min-width: 760px) {
   .nav--primary {
     display: flex;
     flex-flow: row;
+    margin-bottom: 0;
   }
 }
 
@@ -21,13 +23,10 @@
   .nav--primary a {
     color: white;
     display: inline-block;
-    font-size: 3rem;
-    font-weight: 600;
-    letter-spacing: 2.5px;
+    font-size: 2.25rem;
     margin-bottom: 1rem;
     padding: 0 .5rem .5rem;
     position: relative;
-    text-transform: uppercase;
   }
 }
 
@@ -74,6 +73,12 @@
   margin-bottom: 1rem;
 }
 
+@media screen and (max-width: 759px) {
+  header .nav--social a {
+    margin: 0 .75rem;
+  }
+}
+
 .nav--social-inline {
   flex-flow: row;
   justify-content: flex-start;
@@ -90,11 +95,11 @@
     bottom: 0;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     align-items: center;
     left: 0;
     opacity: 0;
-    padding: 3rem;
+    padding: 8rem 3rem 3rem;
     position: fixed;
     right: 0;
     top: 0;
@@ -170,18 +175,50 @@ input[type=checkbox]:checked + label .icon-bar {
   width: 45px;
 }
 
+.nav--secondary {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 786px) {
+  .nav--secondary {
+    flex-direction: row;
+  }
+}
+
 .nav--secondary a {
   display: inline-block;
   font-weight: bold;
+  margin-bottom: 1rem;
   margin-right: 2rem;
   text-transform: uppercase;
 }
 
+@media screen and (min-width: 768px) {
+  .nav--secondary a {
+    margin-bottom: 0;
+  }
+}
+
 .nav--secondary-social {
-  display: inline-block;
-  margin-left: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .nav--secondary-social {
+    flex-direction: row;
+    margin-left: 2rem;
+  }
 }
 
 .nav--secondary-social a {
-  margin-left: 2rem;
+  margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .nav--secondary-social a {
+    margin-bottom: 0;
+    margin-left: 2rem;
+  }
 }
