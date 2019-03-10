@@ -11,6 +11,7 @@ input[type="email"],
 textarea {
   background: transparent;
   border: 2px solid #DDDDDD;
+  border-radius: 0;
   padding: 1rem;
   width: 100%;
 }
@@ -20,6 +21,8 @@ input[type="checkbox"] {
 }
 
 input[type="button"] {
+  border-radius: 0;
+  color: hotpink;
   display: block;
 }
 
