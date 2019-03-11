@@ -123,6 +123,7 @@ section {
 @media screen and (min-width: 760px) {
   .l--two-up-bordered {
     flex-direction: row;
+    max-width: 800px;
   }
 }
 
@@ -134,7 +135,7 @@ section {
 
 @media screen and (min-width: 760px) {
   .l--two-up-bordered > div {
-    flex-basis: calc(50% - .5rem);
+    flex-basis: calc(50% - 1.5rem);
     margin-bottom: 0;
   }
 }
