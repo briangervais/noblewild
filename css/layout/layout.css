@@ -1,6 +1,6 @@
 .header {
   align-items: center;
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(0, 0, 0, 0.7);
   display: flex;
   justify-content: space-between;
   left: 0;
@@ -21,7 +21,7 @@ section {
 
 .site-footer {
   align-items: center;
-  background: rgba(0,0,0,.8);
+  background: rgba(0,0,0,.7);
   display: flex;
   justify-content: space-between;
   position: relative;
@@ -75,7 +75,12 @@ section {
 
 .l--constrained {
   margin: 0 auto;
-  max-width: 80%;
+}
+
+@media screen and (min-width: 759px) {
+  .l--constrained {
+    max-width: 80%;
+  }
 }
 
 .l--narrow {
@@ -137,5 +142,22 @@ section {
   .l--two-up-bordered > div {
     flex-basis: calc(50% - 1.5rem);
     margin-bottom: 0;
+  }
+}
+
+.l--three-up {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.l--three-up article {
+  width: calc(33.333% - .5rem);
+}
+
+@media screen and (min-width: 760px) {
+  .l--three-up {
+    flex-direction: row;
   }
 }

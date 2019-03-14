@@ -1,9 +1,19 @@
 .logo {
+  font-family: 'Domine', serif;
+  font-weight: 300;
   margin: 0;
+  text-transform: lowercase;
 }
 
 .logo a {
-  color: #222222;
+  border: 0;
+  color: white;
+  font-weight: 500;
+  letter-spacing: 2.5px;
+}
+
+.logo a:hover {
+  border: 0;
 }
 
 .logo a:hover {

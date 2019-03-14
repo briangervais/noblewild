@@ -1,0 +1,24 @@
+.newsletter {
+  background: rgba(255,255,255,.7);
+  color: white;
+}
+
+.newsletter__inner {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.newsletter h2 {
+  color: black;
+  text-align: center;
+}
+
+.newsletter__form {
+  justify-content: space-between;
+  display: flex;
+}
+
+.newsletter__form input[type="email"] {
+  background: rgba(255,255,255,.75);
+  border-color: #222;
+}
