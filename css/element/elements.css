@@ -16,7 +16,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Domine', serif;
+  font-family: 'Old Standard TT', serif;
+  /* font-family: 'Domine', serif; */
   font-weight: 100;
   letter-spacing: 2.5px;
   margin-top: 0;
@@ -68,7 +69,7 @@ a:hover {
 ul,
 p {
   font-size: 1.35;
-  letter-spacing: 2px;
+  letter-spacing: 0.3px;
   line-height: 1.7;
   margin-bottom: 2rem;
 }

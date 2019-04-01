@@ -75,6 +75,7 @@ section {
 
 .l--constrained {
   margin: 0 auto;
+  max-width: calc(100% - 4rem);
 }
 
 @media screen and (min-width: 759px) {

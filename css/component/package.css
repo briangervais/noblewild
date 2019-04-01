@@ -1,14 +1,19 @@
 .package {
   background: rgba(255,255,255,.95);
-  border-bottom: 2px solid #eee;
-  margin-bottom: 4rem;
-  padding-bottom: 4rem;
 }
 
 .package:not(:last-of-type) {
   border-bottom: 2px solid #eee;
   margin-bottom: 4rem;
   padding-bottom: 4rem;
+}
+
+@media screen and (min-width: 768px) {
+  .package:not(:last-of-type) {
+    border-bottom: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
 }
 
 .package__content {
