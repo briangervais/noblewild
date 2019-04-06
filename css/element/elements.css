@@ -6,7 +6,7 @@ body {
   background: #f9f9f9;
   color: black;
   /* font-family: 'Domine', serif; */
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Source Serif Pro', serif;
   padding-top: 68px; /* Size of header */
 }
 
@@ -16,8 +16,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Old Standard TT', serif;
-  /* font-family: 'Domine', serif; */
+  font-family: 'Montserrat', sans-serif;
   font-weight: 100;
   letter-spacing: 2.5px;
   margin-top: 0;
@@ -54,7 +53,7 @@ h5 {
 
 a {
   border-bottom: 2px solid transparent;
-  color: #ff8e69; /* mustard yellow */
+  color: #A65151; /* mustard yellow */
   font-weight: bold;
   position: relative;
   text-decoration: none;
@@ -62,8 +61,7 @@ a {
 }
 
 a:hover {
-  border-bottom: 2px solid black;
-  color: #ff8e69; /* mustard yellow */
+  /* color: #ff8e69; /* mustard yellow */ */
 }
 
 ul,

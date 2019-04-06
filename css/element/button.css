@@ -1,9 +1,8 @@
 .button {
-  border-bottom: 2px solid transparent;
+  border: 2px solid #A65151;
   border-radius: 0;
   display: inline-block;
   font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
   position: relative;
   transition: all .4s ease-in-out;
   z-index: 0;
@@ -26,7 +25,8 @@
 
 .button:hover::before,
 .button:hover::after {
-  background: rgba(0,0,0,.05);
+  background: black;
+  opacity: .25;
 }
 
 .button:hover::before {
@@ -38,15 +38,17 @@
 }
 
 .button--primary {
-  background: black;
-  border-color: #333;
-  color: white;
+  background: transparent;
+  border-color: #A65151;
+  color: #eee;
 }
 
 .button--primary {
 }
 
 .button--primary:hover {
+  /* color: black; */
+  color: white;
 }
 
 .button--secondary {

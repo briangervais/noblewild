@@ -1,4 +1,5 @@
 /* Import Library Styles First in case they need to be overridden */
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Montserrat:400,500,700|Source+Serif+Pro:400,700');
 @import url('library/normalize.css');
 
 /* Everything Else */
