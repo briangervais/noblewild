@@ -9,7 +9,7 @@ form {
 input[type="text"],
 input[type="email"],
 textarea {
-  background: transparent;
+  background: white;
   border: 2px solid #DDDDDD;
   border-radius: 0;
   padding: 1rem;

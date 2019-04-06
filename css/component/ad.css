@@ -5,10 +5,19 @@
 
 .ad__inner {
   margin: 0 auto;
-  max-width: 800px;
+  max-width: 960px;
 }
 
 .ad h2,
 .ad p {
   color: white;
+  margin: 0;
+}
+
+.ad h2 {
+  margin: 0 0 3rem;
+}
+
+.ad p {
+  margin-bottom: 3rem;
 }

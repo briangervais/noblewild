@@ -1,6 +1,6 @@
 .header {
   align-items: center;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.4);
   display: flex;
   justify-content: space-between;
   left: 0;
@@ -42,7 +42,7 @@ section {
 }
 
 .l--gutters-lg {
-  padding: 3rem;
+  padding: 0 3rem;
 }
 
 .l--gutters-sm {
@@ -50,19 +50,23 @@ section {
 }
 
 .l--padded-vert-lg {
-  padding: 8rem 0;
+  padding-bottom: 8rem;
+  padding-top: 8rem;
 }
 
 .l--padded-vert-sm {
-  padding: 6rem 0;
+  padding-bottom: 4.5rem;
+  padding-top: 4.5rem;
 }
 
 .l--padded-vert-xsm {
-  padding: 3rem 0;
+  padding-bottom: 3rem;
+  padding-top: 3rem;
 }
 
 .l--padded-vert-xxsm {
-  padding: 3rem 0;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
 }
 
 .l--padded-bottom-sm {
@@ -80,7 +84,7 @@ section {
 
 @media screen and (min-width: 759px) {
   .l--constrained {
-    max-width: 80%;
+    max-width: 1280px;
   }
 }
 

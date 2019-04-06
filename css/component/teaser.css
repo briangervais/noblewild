@@ -8,6 +8,9 @@
 .teaser__image {
 }
 
+.teaser--fifties {
+}
+
 @media screen and (min-width: 760px) {
   .teaser {
     flex-direction: row;
@@ -17,4 +20,12 @@
     margin-right: 2rem;
     min-width: 400px;
   }
+
+  .teaser--fifties .teaser__image {
+    min-width: 50%;
+  }
+}
+
+.about-teaser {
+  background: white;
 }
