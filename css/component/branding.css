@@ -1,6 +1,6 @@
 .logo {
   font-family: 'Abril Fatface', cursive;
-  font-size: 2.75rem;
+  font-size: 1.75rem;
   font-weight: 300;
   margin: 0;
 }
@@ -18,4 +18,10 @@
 
 .logo a:hover {
   color: hotpink;
+}
+
+@media screen and (min-width: 768px) {
+  .logo {
+    font-size: 2.75rem;
+  }
 }

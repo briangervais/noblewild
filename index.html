@@ -51,13 +51,17 @@
 
   <main>
     <section class="banner">
-      <div class="slides">
+      <div class="slides slides-desktop">
         <!-- <img src="images/banner/home/IMG_6314.JPG" class="banner--image" alt=""> -->
         <img src="images/banner/home/dakota-logan.jpg" class="banner--image" alt="">
         <!-- <img src="images/film/film-1.jpg" class="banner--image" alt="">
         <img src="images/banner/home/nick-sarah.jpg" class="banner--image" alt="">
         <img src="images/film/film-2.jpg" class="banner--image" alt=""> -->
         <!-- <img src="images/banner/home/marich-kevin-2.jpg" class="banner--image" alt=""> -->
+      </div>
+
+      <div class="slides slides--mobile">
+        <img src="images/banner/home/dakota-logan-mobile.jpg" class="banner--image" alt="">
       </div>
 
       <!-- <div class="banner--content">
@@ -91,19 +95,19 @@
         </div>
       <div>
     </section> -->
-    <section class="l--gutters-lg l--padded-vert-sm about-teaser">
-      <div class="teaser teaser--fifties l--constrained">
+    <section class="about-teaser">
+      <div class="about-teaser__inner teaser teaser--fifties l--constrained">
         <div class="teaser__image">
           <img src="images/about/brian-jessica-cnm.jpg" class="teaser__image">
         </div>
-        <div>
+        <div class="teaser__text l--gutters-lg l--padded-vert-sm">
           <p class="paragraph-large">We are Brian & Jessica a husband and wife elopement photography company based out of Colorado. Our love for travel, nature and photography all came together. And then I ate this egg from the neighbors house, but it was raw. I put it in my smoothie and had berries, too. Then I found this recipe on Instgram.</p>
           <a href="about.html" class="button button--secondary button--medium">Our Story</a>
         </div>
       <div>
     </section>
 
-    <section class="section--padded-xlarge newsletter">
+    <section class="l--gutters-lg l--padded-vert-sm newsletter">
       <div class="newsletter__inner">
         <h2>Join our Newsletter</h2>
         <form class="newsletter__form">
@@ -114,7 +118,7 @@
     </section>
   </main>
 
-  <footer class="section--padded-xlarge site-footer">
+  <footer class="l--gutters-lg l--padded-vert-sm site-footer">
     <div>
       <nav class="nav--secondary" id="footer-nav-primary">
         <a href="about.html" title="About Noble Wild">About</a>
@@ -122,7 +126,14 @@
         <a href="journal.html" title="Noble Wild Journal">Journal</a>
         <a href="contact.html" title="Contact Noble Wild">Contact</a>
       </nav>
-      <div class="nav--locations">Colorado | Utah | New Mexico | Arizona | California | Wyoming</div>
+      <ul class="nav--locations">
+        <li>Colorado</li>
+        <li>Utah</li>
+        <li>New Mexico</li>
+        <li>Arizona</li>
+        <li>California</li>
+        <li>Wyoming</li>
+      </ul>
     </div>
 
     <nav class="nav--social nav--secondary-social" id="footer-nav-social">

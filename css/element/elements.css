@@ -7,7 +7,7 @@ body {
   color: black;
   /* font-family: 'Domine', serif; */
   font-family: 'Source Serif Pro', serif;
-  padding-top: 68px; /* Size of header */
+  /* padding-top: 68px;  Size of header */
 }
 
 h1,
@@ -28,8 +28,14 @@ h1 {
 }
 
 h2 {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  h2 {
+    font-size: 1.8rem;
+  }
 }
 
 h3 {
@@ -67,14 +73,28 @@ a:hover {
 
 ul,
 p {
-  font-size: 1.05rem;
+  font-size: 1rem;
   letter-spacing: 0.3px;
   line-height: 1.55;
   margin-bottom: 2rem;
+  margin-top: 0;
+}
+
+@media screen and (min-width: 768px) {
+  ul,
+  p {
+    font-size: 1.05rem;
+  }
 }
 
 .paragraph-large {
-  font-size: 1.25rem;
+  font-size: 1.15rem;
+}
+
+@media screen and (min-width: 768px) {
+  .paragraph-large {
+    font-size: 1.25rem;
+  }
 }
 
 ul {

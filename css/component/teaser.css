@@ -26,6 +26,21 @@
   }
 }
 
+/* About Teaser */
 .about-teaser {
   background: white;
+}
+
+.about-teaser .teaser__text {
+  /* padding: 3rem; */
+}
+
+@media screen and (min-width: 768px) {
+  .about-teaser {
+    padding: 3rem;
+  }
+
+  .about-teaser .teaser__text {
+    padding: 0;
+  }
 }

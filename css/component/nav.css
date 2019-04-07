@@ -29,7 +29,7 @@
   .nav--primary a {
     color: white;
     display: inline-block;
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-bottom: 1rem;
     padding: 0 .5rem .5rem;
     position: relative;
@@ -107,7 +107,7 @@
     align-items: center;
     left: 0;
     opacity: 0;
-    padding: 6rem 3rem 3rem;
+    padding: 6rem 1rem 3rem;
     position: fixed;
     right: 0;
     top: 0;
@@ -222,6 +222,7 @@ input[type=checkbox]:checked + label .icon-bar {
   .nav--secondary-social {
     flex-direction: row;
     margin-left: 2rem;
+    width: 160px;
   }
 }
 
@@ -240,4 +241,20 @@ input[type=checkbox]:checked + label .icon-bar {
   color: white;
   font-family: 'Montserrat', sans-serif;
   margin: 1rem 0;
+  padding: 0;
+}
+
+.nav--locations li {
+  display: block;
+}
+
+@media screen and (min-width: 768px) {
+  .nav--locations li {
+    display: inline-block;
+  }
+
+  .nav--locations li:not(:last-of-type)::after {
+    content: "|";
+    margin: 0 0.4rem 0 .5rem;
+  }
 }
