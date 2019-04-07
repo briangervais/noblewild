@@ -16,7 +16,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #A65151;
+  color: black;
   font-family: 'Montserrat', sans-serif;
   font-weight: 100;
   letter-spacing: 2.5px;
@@ -24,7 +24,13 @@ h6 {
 }
 
 h1 {
+  color: white;
   margin-bottom: 2rem;
+}
+
+.page-title {
+  color: white;
+  font-size: 2.5rem;
 }
 
 h2 {
@@ -117,4 +123,15 @@ img {
 
 ul {
   columns: 2;
+}
+
+blockquote {
+  font-size: 2rem;
+}
+
+blockquote p,
+blockquote footer {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
 }
