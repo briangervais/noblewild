@@ -47,17 +47,14 @@
 }
 
 .title-grid {
-  align-items: flex-end;
-  display: flex;
-  height: 320px;
 }
 
 .title-grid__title {
-  bottom: 3rem;
+  /* bottom: 3rem;
   display: inline-block;
   left: 10%;
   position: relative;
-  z-index: 1;
+  z-index: 1; */
 }
 
 .title-grid__title h2 {
@@ -72,7 +69,7 @@
   left: 50%;
   margin-left: -640px;
   position: fixed;
-  top: 68px;
+  top: 0;
   width: 1280px;
 }
 

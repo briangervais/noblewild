@@ -54,7 +54,8 @@
   width: 100%;
 }
 
-.nav--primary a:hover {
+.nav--primary a:hover,
+.nav--primary a.active {
   color: white;
   /* color: #A65151; */
 }

@@ -20,6 +20,14 @@
   padding: 0;
 }
 
+.package__image {
+  text-align: center;
+}
+
+.package__image img {
+  max-width: 100px;
+}
+
 @media screen and (min-width: 768px) {
   .package__content {
     padding: 2rem 1rem;
