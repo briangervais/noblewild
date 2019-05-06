@@ -11,13 +11,13 @@
 .ad h2,
 .ad p {
   color: white;
-  margin: 0;
+  /* margin: 0; */
 }
 
 .ad h2 {
-  margin: 0 0 3rem;
+  /* margin: 0 0 3rem; */
 }
 
 .ad p {
-  margin-bottom: 3rem;
+  /* margin-bottom: 3rem; */
 }

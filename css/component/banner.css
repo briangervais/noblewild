@@ -1,18 +1,24 @@
 .banner {
   align-items: flex-end;
   display: flex;
-  height: calc(100vh - 185px);
+  height: calc(100vh - 180px);
   overflow: hidden;
   position: relative;
 }
 
 @media screen and (min-width: 768px) {
   .banner {
-    height: calc(100vh - 150px);
+    height: calc(100vh - 250px);
   }
+}
 
-  .banner--landing-page {
-    height: calc(100vh - 270px);
+.banner--home {
+  height: calc(100vh - 30px);
+}
+
+@media screen and (min-width: 768px) {
+  .banner--home {
+    height: calc(100vh - 120px);
   }
 }
 
@@ -24,14 +30,12 @@
   width: 100%;
 }
 
-/* @media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .banner--image {
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
+    max-width: none;
+    width: 140%;
   }
-} */
+}
 
 .banner--content {
   background: rgba(255,255,255, .25);

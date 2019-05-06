@@ -1,5 +1,6 @@
 .package {
   background: rgba(255,255,255,.95);
+  text-align: center;
 }
 
 .package:not(:last-of-type) {
@@ -21,6 +22,7 @@
 }
 
 .package__image {
+  margin-bottom: 1rem;
   text-align: center;
 }
 
@@ -30,7 +32,7 @@
 
 @media screen and (min-width: 768px) {
   .package__content {
-    padding: 2rem 1rem;
+    /* padding: 2rem 1rem; */
   }
 }
 
@@ -39,4 +41,21 @@
 
 .package:nth-of-type(even) {
   /* background: #eee; */
+}
+
+.package__list {
+  columns: 1;
+  margin: 0;
+  padding: 0;
+}
+
+.package__list li {
+  font-family: 'Montserrat', sans-serif;
+  font-size: .85rem;
+  line-height: 1.5;
+  list-style: none;
+}
+
+.package__list li:not(:last-of-type) {
+  margin-bottom: .75rem;
 }

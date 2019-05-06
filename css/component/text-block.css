@@ -1,6 +1,10 @@
 .text-block {
-  padding-top: 0;
   text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .text-block {
+  }
 }
 
 .text-block h1,
@@ -8,6 +12,18 @@
 .text-block h3,
 .text-block h4,
 .text-block h5,
-.text-block h6 {
+.text-block h6,
+.text-block p {
   margin: 0;
+}
+
+.button-block {
+  padding: 0 0 3rem;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .button-block {
+    padding: 0 0 4.5rem;
+  }
 }

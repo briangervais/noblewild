@@ -32,7 +32,7 @@
 }
 
 .about-teaser .teaser__text {
-  /* padding: 3rem; */
+  text-align: center;
 }
 
 @media screen and (min-width: 768px) {
@@ -42,5 +42,6 @@
 
   .about-teaser .teaser__text {
     padding: 0;
+    text-align: left;
   }
 }

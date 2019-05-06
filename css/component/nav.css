@@ -16,7 +16,7 @@
 
 .nav--primary a {
   border-bottom: 0;
-  color: black;
+  color: #DDD;
   display: inline-block;
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
@@ -27,7 +27,6 @@
 
 @media screen and (max-width: 759px) {
   .nav--primary a {
-    color: white;
     display: inline-block;
     font-size: 1.5rem;
     margin-bottom: 1rem;
@@ -38,8 +37,7 @@
 
 @media screen and (min-width: 760px) {
   .nav--primary a {
-    /* margin-left: 1.5rem; */
-    padding: 1rem;
+    padding: 3rem 1rem;
   }
 }
 
@@ -47,7 +45,7 @@
   background: transparent;
   bottom: 0;
   content: "";
-  height: 30px;
+  height: 5px;
   left: 0;
   position: absolute;
   transition: all .2s;
@@ -60,8 +58,8 @@
   /* color: #A65151; */
 }
 
-.nav--primary a:hover::after {
-  /* background: rgba(255,255,255,.25); */
+.nav--primary a.active::after {
+  /* background: rgba(255,255,255,.15); */
 }
 
 .nav--social {
@@ -196,7 +194,7 @@ input[type=checkbox]:checked + label .icon-bar {
 }
 
 .nav--secondary a {
-  color: #A65151;
+  color: white;
   display: inline-block;
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
@@ -239,14 +237,18 @@ input[type=checkbox]:checked + label .icon-bar {
 }
 
 .nav--locations {
-  color: white;
+  color: #CCC;
+  display: block;
+  columns: 1;
   font-family: 'Montserrat', sans-serif;
-  margin: 1rem 0;
+  font-size: .9rem;
+  margin: 1rem 0 0;
   padding: 0;
 }
 
 .nav--locations li {
   display: block;
+  margin: 0;
 }
 
 @media screen and (min-width: 768px) {
