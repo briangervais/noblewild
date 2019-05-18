@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  var slides = $('.slides img');
+  var slides = $('.home-page .slides-desktop img');
   i = 0;
 
   function cycle() {
@@ -14,6 +14,6 @@ $(document).ready(function() {
   }
 
   // Execution
-  // cycle();
+  cycle();
 
 });

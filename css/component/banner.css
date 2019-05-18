@@ -24,7 +24,7 @@
 
 .banner--image {
   position: fixed;
-  top: 50%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
@@ -33,7 +33,7 @@
 @media screen and (min-width: 768px) {
   .banner--image {
     max-width: none;
-    width: 140%;
+    width: 100%;
   }
 }
 
