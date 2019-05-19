@@ -8,8 +8,12 @@
 
 @media screen and (min-width: 768px) {
   .banner {
-    height: calc(100vh - 250px);
+    height: 100vh;
   }
+}
+
+.after-banner {
+  margin-top: -200px;
 }
 
 .banner--home {
@@ -91,4 +95,9 @@
   .slides-desktop {
     display: block !important;
   }
+}
+
+.slider--about {
+  margin: 0 auto;
+  max-width: 650px;
 }
