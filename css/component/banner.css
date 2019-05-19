@@ -1,7 +1,7 @@
 .banner {
   align-items: flex-end;
   display: flex;
-  height: calc(100vh - 180px);
+  height: 100vh;
   overflow: hidden;
   position: relative;
 }
@@ -13,27 +13,19 @@
 }
 
 .banner--home {
-  height: calc(100vh - 30px);
-}
-
-@media screen and (min-width: 768px) {
-  .banner--home {
-    height: calc(100vh - 120px);
-  }
+  height: 100vh;
 }
 
 .banner--image {
-  position: fixed;
+  position: relative;
   top: 60%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 100%;
+  transform: translate(0, -50%);
 }
 
 @media screen and (min-width: 768px) {
   .banner--image {
-    max-width: none;
-    width: 100%;
+    /* max-width: none;
+    width: 100%; */
   }
 }
 
@@ -55,21 +47,48 @@
 }
 
 /* SLIDES */
-.slides--mobile .banner--image {
-  top: 0;
-  transform: translate(-50%, 0);
+.slides {
+  height: 100%;
+  position: fixed !important;
+  width: 100%;
 }
 
-.slides--desktop {
-  display: none;
+.slick-list {
+  height: 100%;
+}
+
+.slick-track {
+  height: 100%;
+}
+
+.slick-slide {
+  height: 100%;
+}
+
+.slick-slide > div {
+  height: 100%;
+}
+
+.slick-slide > div > div {
+  height: 100%;
+}
+
+.slides--mobile .banner--image {
+  position: relative;
+  top: 60%;
+  transform: translate(0, -50%);
+}
+
+.slides-desktop {
+  display: none !important;
 }
 
 @media screen and (min-width: 768px) {
   .slides--mobile {
-    display: none;
+    display: none !important;
   }
 
   .slides-desktop {
-    display: block;
+    display: block !important;
   }
 }
