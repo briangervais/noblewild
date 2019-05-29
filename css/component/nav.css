@@ -16,7 +16,7 @@
 
 .nav--primary a {
   border-bottom: 0;
-  color: #DDD;
+  color: #AAA;
   display: inline-block;
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
@@ -37,30 +37,38 @@
 
 @media screen and (min-width: 760px) {
   .nav--primary a {
-    padding: 3rem 1rem;
+    padding: 2rem 1rem;
   }
 }
 
-.nav--primary a::after {
+/* .nav--primary a::after {
   background: transparent;
-  bottom: 0;
+  bottom: 1.5rem;
   content: "";
-  height: 5px;
-  left: 0;
+  height: 1px;
   position: absolute;
+  right: 1rem;
   transition: all .2s;
-  width: 100%;
-}
+  width: 0%;
+} */
 
-.nav--primary a:hover,
 .nav--primary a.active {
   color: white;
-  /* color: #A65151; */
 }
 
-.nav--primary a.active::after {
-  /* background: rgba(255,255,255,.15); */
+.nav--primary a:hover {
+  color: white;
 }
+
+/* .nav--primary a:hover::after {
+  background: #AAA;
+  width: calc(100% - 2rem);
+} */
+
+/* .nav--primary a.active::after {
+  background: rgba(255,255,255,.15);
+  width: 100%;
+} */
 
 .nav--social {
   display: flex;

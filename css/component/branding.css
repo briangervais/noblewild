@@ -3,6 +3,8 @@
   font-size: 1.75rem;
   font-weight: 300;
   margin: 0;
+  transition: all .2s ease-in;
+  transition: font-size .025s ease-in, padding .2s ease-in;
 }
 
 .logo a {
@@ -23,5 +25,11 @@
 @media screen and (min-width: 768px) {
   .logo {
     font-size: 2.75rem;
+    padding: 2rem 0;
+  }
+
+  .not-top .logo {
+    font-size: 2.25rem;
+    padding: 1rem 0;
   }
 }
