@@ -1,0 +1,33 @@
+.list--mountains {
+  list-style: none;
+}
+
+.list--mountains li {
+  position: relative;
+}
+
+.list--mountains li::before {
+  background: url("../../images/icons/list-mountain.svg") no-repeat;
+  background-size: 100%;
+  content: "";
+  height: 1rem;
+  left: -1.5rem;
+  position: absolute;
+  top: 5px;
+  width: 1rem;
+}
+
+.list--prominent {
+  columns: 1;
+  margin: 0;
+}
+
+.list--prominent li:not(:last-of-type) {
+  margin-bottom: .25rem;
+}
+
+.list--prominent span {
+  color: #333;
+  font-weight: bold;
+  text-transform: uppercase;
+}

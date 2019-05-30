@@ -7,16 +7,6 @@
   }
 }
 
-.text-block h1,
-.text-block h2,
-.text-block h3,
-.text-block h4,
-.text-block h5,
-.text-block h6,
-.text-block p {
-  margin: 0;
-}
-
 .button-block {
   padding: 0 0 3rem;
   text-align: center;

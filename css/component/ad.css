@@ -22,3 +22,7 @@
 .ad p {
   /* margin-bottom: 3rem; */
 }
+
+.ad .button {
+  margin-top: 2rem;
+}

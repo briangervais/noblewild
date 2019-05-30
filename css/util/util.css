@@ -20,30 +20,6 @@
   color: white;
 }
 
-.list--mountains {
-  padding: 0;
-}
-
-.list--mountains li {
-  /* background: url(../../images/icons/bullet-mountain.svg) no-repeat 100%; */
-  list-style: none;
-}
-
-.list--prominent {
-  columns: 1;
-  margin: 0;
-}
-
-.list--prominent li:not(:last-of-type) {
-  margin-bottom: .25rem;
-}
-
-.list--prominent span {
-  color: #333;
-  font-weight: bold;
-  text-transform: uppercase;
-}
-
 .bold {
   font-weight: bold;
 }
