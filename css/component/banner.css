@@ -111,15 +111,22 @@
   background-repeat: no-repeat;
   background-size: 100%;
   border: 0;
+  cursor: pointer;
   display: block;
   height: 2rem;
+  opacity: .5;
   outline: 0;
   overflow: hidden;
   padding: 0;
   position: absolute;
   text-indent: -9999px;
   top: calc(50% - 1rem);
+  transition: opacity .2s ease-in;
   width: 2rem;
+}
+
+.slick-arrow:hover {
+  opacity: 1;
 }
 
 .slick-prev {
