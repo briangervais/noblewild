@@ -83,3 +83,7 @@
 .button--small {
   padding: .25rem;
 }
+
+.title-button {
+  align-self: center;
+}

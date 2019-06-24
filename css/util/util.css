@@ -27,3 +27,7 @@
 .italic {
   font-style: italic;
 }
+
+.text-centered {
+  text-align: center;
+}

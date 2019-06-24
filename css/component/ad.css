@@ -1,10 +1,11 @@
 .ad {
   background: rgba(0, 0, 0, .6);
-  margin-top: -120px;
+  /* margin-top: -120px; */
   text-align: center;
 }
 
 .ad__inner {
+  display: flex;
   margin: 0 auto;
   max-width: 960px;
 }
@@ -16,11 +17,17 @@
 }
 
 .ad h2 {
-  /* margin: 0 0 3rem; */
+  font-size: 3rem;
+  max-width: 400px;
 }
 
 .ad p {
   /* margin-bottom: 3rem; */
+}
+
+.ad__inner div {
+  max-width: 455px;
+  padding: 2rem 0;
 }
 
 .ad .button {
